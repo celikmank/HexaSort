@@ -28,6 +28,7 @@ using UnityEngine;
         gameObject.transform.DOKill();
 
         gameObject.transform.DOScale(Vector3.zero, 0.2f)
+        git push --force origin master
             .SetEase(Ease.InBack)
             .SetDelay(delay)
             .OnComplete(() => Destroy(gameObject));
